@@ -1,0 +1,237 @@
+@font-face {
+    font-family: Wind;
+    src: url('svn-last_paradise-webfont.woff2') format('woff2'),
+    url('svn-last_paradise-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+#right {
+    float: right;
+    font-size: 15px;
+    padding: 2% 5%;
+    margin: 1% 4%;
+    /*overflow: hidden;*/
+    list-style-type: none;
+}
+.father {
+    height: 600px;
+    border: 2px solid lightgrey;
+
+    border-image: white;
+    text-align: center;
+    margin: auto;
+
+}
+.login{
+    position: fixed;
+    width: 500px;
+    z-index: 9999;
+    display: none;
+    background-color: white;
+    left: 50%;
+    margin-left: -256px;
+    margin-top: 30px;
+    border: 1px solid gray;
+}
+
+#clear{
+    clear: both;
+}
+.biaoti{
+    font-size: 38px;
+    margin-top: 50px;
+    font-family: Wind, serif;
+    width: 490px;
+    height: 38px;
+    text-align: center;
+}
+/* 账号文本框 */
+.zhanghao{
+
+    margin-top: 30px;
+    width: 490px;
+    height: 35px;
+    text-align: center;
+
+    /* border: 1px solid red; */
+}
+.zhanghao input{
+    font-size: 16px;
+    width: 365px;
+    height: 40px;
+    border: 1px solid lightgray;
+}
+/* 密码文本框 */
+.pwd{
+    margin-top: 10px;
+    width: 490px;
+    height: 35px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.pwd input{
+    font-size: 16px;
+    width: 365px;
+    height: 40px;
+    border: 1px solid lightgray;
+}
+.jizhumima{
+    width: 490px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 57px;
+    /* border: 1px solid red; */
+}
+.password{
+    width: 365px;
+    height: 30px;
+    /* border: 1px solid red; */
+    margin-left: 62px;
+}
+/* 改变字体颜色 */
+.password {
+    margin-top: -50px;
+}
+
+.password a{
+    color: black;
+}
+
+.sm {
+    margin-top: 20px;
+}
+
+.sm a {
+    color: #cacb89;
+}
+
+.fab {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.denglu{
+    margin-top: -13px;
+}
+
+.denglu2 {
+    margin-top: 13px;
+}
+
+.denglu input{
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 365px;
+    height: 50px;
+    border-radius: 9px;
+    border: 1px solid deepskyblue;
+    background: deepskyblue;
+}
+.denglu1 {
+    font-family: Wind;
+}
+/* 去掉下划线 */
+a{
+    text-decoration: none;
+}
+.ziti{
+    color: deepskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**{*/
+/*    margin: 0px;*/
+/*    padding: 0px;*/
+/*}*/
+/*!* 弹出登陆框按钮 *!*/
+/*    #login-header{*/
+/*    text-align: center;*/
+/*    height: 30px;*/
+/*    line-height: 30px;*/
+/*}*/
+/*#login-header a{*/
+/*    font-size: 24px;*/
+/*    text-decoration: none;*/
+/*    color: antiquewhite;*/
+/*}*/
+/* 登陆框主体 */
+
+/* 登陆框标题 */
+.login-title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: move;
+}
+.login-title span a{
+     text-decoration: none;
+     border: 1px solid gray;
+     font-size: 12px;
+     color: black;
+     border-radius: 20px;
+     width: 40px;
+     height: 40px;
+     background-color: #fff;
+     position: absolute;
+     top: -20px;
+     right: -20px;
+}
+
+/* 登陆表单 */
+/*.login-input{*/
+/*     margin: 20px 0px 30px 0px;*/
+/*}*/
+/*.login-input label{*/
+/*    float: left;*/
+/*    height: 35px;*/
+/*    line-height: 35px;*/
+/*    width: 90px;*/
+/*    padding-left: 10px;*/
+/*    text-align: right;*/
+/*    font-size: 14px;*/
+/*}*/
+/*.login-input input.list-input{*/
+/*    height: 35px;*/
+/*    line-height: 35px;*/
+/*    width: 350px;*/
+/*    text-indent: 5px;*/
+/*}*/
+/*!* 登陆框登陆按钮 *!*/
+/*.loginSubmit{*/
+/*    width: 260px;*/
+/*    height: 40px;*/
+/*    text-align: center;*/
+/*    border: 1px solid gray;*/
+/*    background-color: white;*/
+/*    margin-left: 120px;*/
+/*}*/
+
+/* 遮盖层 */
+.bg{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    opacity: 0.3;
+    -webkit-opacity: 0.3;
+    -moz-opacity: 0.3;
+    display: none;
+}

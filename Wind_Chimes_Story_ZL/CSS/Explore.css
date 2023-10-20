@@ -1,0 +1,107 @@
+@charset "utf-8";
+@font-face {
+    font-family: Wind;
+    src: url('svn-last_paradise-webfont.woff2') format('woff2'),
+    url('svn-last_paradise-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*html{*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+#back{
+    background-image: url(../Images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 510px;
+}
+body {
+    width: 100%;
+}
+div > header {
+    height: 20vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#left {
+    float: left;
+    list-style-type: none;
+    padding: 2% 5%;
+    margin: 1% 5%;
+    overflow: hidden;
+}
+
+#left li{
+    list-style: none;
+}
+
+#left li a{
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+#right {
+    float: right;
+    display: flex;
+    font-size: 15px;
+    padding: 3% 8%;
+    margin: 1% 5%;
+    /*overflow: hidden;*/
+    list-style-type: none;
+}
+#right li {
+    min-width: 100%;
+}
+
+#main {
+    font-family: Wind, serif;
+    font-size: 30px;
+}
+
+div > header li {
+    float: left;
+
+}
+
+div > header > ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10% 13%;
+    text-decoration: none;
+}
+
+#top h1{
+    font-size: 50px;
+    padding: 10px 100px;
+    margin: 0px 70px;
+    color: aliceblue;
+    max-width: 500px;
+}
+
+#top p{
+    font-size: 25px;
+    padding: 0px 100px;
+    margin: 0px 70px;
+    color: #949494;
+}
+
+#btn2 {
+    color: #ead5d5;
+    cursor: pointer;
+    text-align: center;
+    font-size: 23px;
+    padding: 0.5% 1%;
+    margin: 3% 11%;
+    background-color: #444c56;
+    border: 2px solid;
+    border-radius: 20px;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wind_Chimes_Story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Outdoor, sports, store, wish, apply, new">
+    <script src="../JAVAScript/form.js"></script>
+    <link rel="stylesheet" href="../CSS/Contact.css">
+    <link rel="stylesheet" href="../CSS/valid.css">
+
+    <link rel="stylesheet" type="text/css" href="../CSS/collected_data.css" />
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <script src="../JAVAScript/leaflet.ChineseTmsProviders.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="back">
+    <header>
+        <ul id="left">
+            <li><a id="main" href="./Wind_Chimes_MainStation.html">Wind Chimes Story</a></li>
+        </ul>
+        <ul id="right">
+            <li ><a href="Sign_up.html">Sign up</a></li>
+            <li ><!-- 弹出登陆框按钮 -->
+                <div id="login-header">
+                    <a id="adminBtn" href="javascript:void(0)">Log in</a>
+                </div>
+            </li>
+            <div id="login" class="login">
+                <div class="father">
+                    <div id="login-title" class="login-title">
+                        <span><a id="closeBtn" href="javascript:void(0)">Close</a></span>
+                    </div>
+
+                    <!-- 清除浮动 -->
+                    <div id="clear">
+
+                    </div>
+
+                    <img src="../Images/logo.png">
+
+                    <h2 class="biaoti">Welcome</h2>
+
+                    <p class="zhanghao">
+
+                        <input type="text"  placeholder="  Account number" />
+
+                    </p>
+
+                    <p class="pwd">
+
+                        <input type="password"  value="" placeholder="  Password" />
+
+                    </p>
+                    <div class="sm">
+                        <a href="#" class="fab fa-github"></a>
+                        <a href="#" class="fab fa-qq"></a>
+                        <a href="#" class="fab fa-weibo"></a>
+                        <a href="#" class="fab fa-weixin"></a>
+                        <a href="#" class="fab fa-youtube"></a>
+                    </div>
+                    <div class="jizhumima">
+
+                        <div class="password">
+
+                            <input type="checkbox" class="jizhumima1" /><a href="#">Remember</a>
+                            &nbsp;&nbsp;
+                            <input type="checkbox" class="jizhumima2" /><a href="#">Auto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="Sign_up.html" target="_blank">Sign up</a>
+                        </div>
+
+
+                    </div>
+                    <p class="denglu">
+
+                        <a href="#"><input type="submit" class="denglu1" value="Log in" /></a>
+
+                    </p>
+
+                    <p class="denglu2">
+
+                        By logging in, you agree
+                        <br>
+                        <a href=""><span class="ziti"></span>User Service Agreement</a>
+                        and
+                        <a href=""><span class="ziti"></span>Privacy Policy</a>
+                    </p>
+
+                </div>
+            </div>
+            <!-- 遮盖层 -->
+            <div id="bg" class="bg">sada</div>
+
+            <script src="../JAVAScript/Login.js"></script>
+        </ul>
+
+    </header>
+
+    <div id = "top">
+        <h1>Be passionate </br> and long-lasting</h1>
+        <br>
+        <p>Listen to stories from the world's interesting people</p>
+        <a href="Contact.html" target="_blank">
+            <button id="btn2">Contact Us</button>
+        </a>
+    </div>
+</div>
+
+<div id="content">
+    <table id="table">
+        <tr>
+            <th id="time">Time</th>
+            <th id="name">Name</th>
+            <th id="phone">Phone</th>
+            <th id="email">Email</th>
+            <th id="message">Message</th>
+            <th id="address">Address</th>
+        </tr>
+        <tbody id="table_body"></tbody>
+    </table>
+    <div id="btn">
+        <button class="form_btn" onclick="showData()">Show All</button>
+        <button class="form_btn" onclick="clearData()">Clear All</button>
+    </div>
+    <div id="empty_handle">
+        <h1>There are no wishing list right now</h1>
+    </div>
+</div>
+<script src="../JAVAScript/collected_data.js"></script>
+
+
+
+<footer>
+    <div class="links204">
+        <p>Look for the hormones of music</p>
+    </div>
+    <div id="foot">
+        <div id="foot_1">
+            <h1 class="h2">Wind Chimes Story</h1>
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;
+                Because of one person, a platform is produced.
+                Let everyone who is not in a good state can
+                find a band-aid for their soul through the
+                platform; Let every confused person can find
+                the beacon of life through the platform; Let
+                every lonely person find soul sustenance.
+            </p>
+        </div>
+        <div class="foot_2">
+            <ul id="foot_l">
+                <li><a href="">About</a></li>
+                <li><a href="">FeedBack</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <div class="contacte204 fr">
+                <div class="contact_info fl">
+                    <p class="tel204">
+                        <a href="mailto: lzh209394@outlook.com">E-mail: lzh209394@outlook.com</a>
+                    </p>
+                    <p class="tel204">
+                        <a href="tel: +86 13834422070">Tel: +86 13834422070</a>
+                    </p>
+                    <p class="tel204">Address: HeBei University of Technology</p>
+                </div>
+                <!--二维码开始-->
+                <div class="ewm204 fr">
+                    <img src="../Images/Code.jpg" alt="Code.jpg" />
+                    <p><br>Scan and follow us</p>
+                </div>
+                <!--二维码结束-->
+            </div>
+
+            <div class="copyright">
+                &copy; 2022 | Created & Designed By <a href="">Zhaohui Liang</a>
+            </div>
+        </div>
+    </div>
+    <a class="valid" href="https://validator.w3.org/nu/?doc=https://sfs-webdev.massey.ac.nz/site2292/158258/Assignment/Wind_Chimes_Story_ZL/HTML/collected_data.html"
+       aria-label="more">Valid HTML</a>
+    <br>
+    <a class="valid" href="https://jigsaw.w3.org/css-validator/validator?uri=https://sfs-webdev.massey.ac.nz/site2292/158258/Assignment/Wind_Chimes_Story_ZL/CSS/collected_data.css"
+       aria-label="more"> Valid CSS</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wind_Chimes_Story</title>
+    <link rel="stylesheet" href="../CSS/Carousel_chart.css">
+    <link rel="stylesheet" href="../CSS/valid.css">
+
+    <script src="../JAVAScript/Carousel_chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+            integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+            crossorigin=""></script>
+
+    <link rel="stylesheet" href="../CSS/Introduction.css">
+
+
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <script src="../JAVAScript/Login.js"></script>
+
+    <script src="../JAVAScript/goTop.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="../CSS/MainStation.css">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>-->
+    <script src="../JAVAScript/leaflet.ChineseTmsProviders.js"></script>
+
+
+<!--    biaodan-->
+
+<!--    <script type="text/javascript" src="/js/jquery/jquery.form.js"></script>-->
+<!--    <script type="text/javascript" src="/js/jquery/jquery-1.8.0.min.js"></script>-->
+<!--    <script type="text/javascript" src="/js/jquery/jquery.easyui.min.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+<!--    <link rel="stylesheet"-->
+<!--          href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"-->
+<!--          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="-->
+<!--          crossorigin=""/>-->
+
+<!--    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"-->
+<!--            integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="-->
+<!--            crossorigin=""></script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+
+<div id="back">
+    <header>
+        <ul id="left">
+            <li id="main"><a href="./Wind_Chimes_MainStation.html">Wind Chimes Story</a></li>
+            <div class="nav1">
+                <a href="../HTML/Explore.html" class="cont" target="_blank" ><button id="drop_btn">Explore</button></a>
+                <div class="nav2">
+                    <a href="../HTML/Explore.html" target="_blank">Historical</a>
+                    <a href="../HTML/Explore.html" target="_blank">Philosophy</a>
+                    <a href="../HTML/Explore.html" target="_blank">Bedtime</a>
+                    <a href="../HTML/Explore.html" target="_blank">Motivational</a>
+                    <a href="../HTML/Explore.html" target="_blank">Spiritual</a>
+                </div>
+            </div>
+        </ul>
+        <ul id="right">
+            <li >
+                <a href="Sign_up.html" target="_blank">Sign up</a>
+            </li>
+            <li ><!-- 弹出登陆框按钮 -->
+                <div id="login-header">
+                    <a id="adminBtn" href="javascript:void(0)">Log in</a>
+                </div>
+            </li>
+            <div id="login" class="login">
+                <div class="father">
+                    <div id="login-title" class="login-title">
+                        <span><a id="closeBtn" href="javascript:void(0)">Close</a></span>
+                    </div>
+
+                    <!-- 清除浮动 -->
+                    <div id="clear">
+
+                    </div>
+
+                    <img src="../Images/logo.png">
+
+                    <h2 class="biaoti">Welcome</h2>
+
+                    <p class="zhanghao">
+
+                        <input type="text"  placeholder="  Account number" />
+
+                    </p>
+
+                    <p class="pwd">
+
+                        <input type="password"  value="" placeholder="  Password" />
+
+                    </p>
+                    <div class="sm">
+                        <a href="#" class="fab fa-github"></a>
+                        <a href="#" class="fab fa-qq"></a>
+                        <a href="#" class="fab fa-weibo"></a>
+                        <a href="#" class="fab fa-weixin"></a>
+                        <a href="#" class="fab fa-youtube"></a>
+                    </div>
+                    <div class="jizhumima">
+
+                        <div class="password">
+
+                            <input type="checkbox" class="jizhumima1" /><a href="#">Remember</a>
+                            &nbsp;&nbsp;
+                            <input type="checkbox" class="jizhumima2" /><a href="#">Auto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="Sign_up.html" target="_blank">Sign up</a>
+                        </div>
+
+
+                    </div>
+                    <p class="denglu">
+
+                        <a href="#"><input type="submit" class="denglu1" value="Log in" /></a>
+
+                    </p>
+
+                    <p class="denglu2">
+
+                        By logging in, you agree
+                        <br>
+                        <a href=""><span class="ziti"></span>User Service Agreement</a>
+                        and
+                        <a href=""><span class="ziti"></span>Privacy Policy</a>
+                    </p>
+
+                </div>
+            </div>
+            <!-- 遮盖层 -->
+            <div id="bg" class="bg">sada</div>
+
+            <script src="../JAVAScript/Login.js"></script>
+
+        </ul>
+    </header>
+
+    <div id = "top">
+        <h1>Be passionate </br> and long-lasting</h1>
+        <br>
+        <p>Listen to stories from the world's interesting people</p>
+        <a href="Explore.html" target="_blank">
+            <button id="btn">Start Listen !</button>
+        </a>
+        <a href="Contact.html" target="_blank">
+            <button id="btn2">Contact Us</button>
+        </a>
+<!--        <from action="/Contact.html" method="post">-->
+<!--            <input type="submit" id="btn2" value="Contact Us">-->
+<!--        </from>-->
+<!--        <button id="btn2">Contact Us</button>-->
+<!--        <form id="upload" enctype="multipart/form-data" action="/fileupload" method="post" οnsubmit="return submitForm()">-->
+<!--            <input type="file" name="file" id="pic"/>-->
+<!--            <input type="submit" value="提交"/>-->
+<!--        </form>-->
+
+    </div>
+</div>
+
+<h1 class="h">what is the BackGround</h1>
+
+<div id = "guide">
+
+    <div id="guide1">
+        <p id="guide1_p">
+            The origin of the idea for this site came from a story:
+        </p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            I met a girl named ZL, we fell in love, and although
+            we had many conflicts, we believed in each other.
+            We are thousands of miles apart, we can't sleep with
+            each other every day, we want to have an environment
+            where she can sleep peacefully every day, and we also
+            hope that all those who can't sleep at night have a
+            soul home...
+        </p>
+    </div>
+
+    <div id="map"></div>
+    <script src="../JAVAScript/Map.js"></script>
+
+</div>
+
+<div id="introduction">
+    <h1 class="h1">A feast for the ears</h1>
+    <div class="container">
+        <ul class="titlec">
+            <li class="title active" data-index="1">Historical</li>
+            <li class="title" data-index="2">Philosophy</li>
+            <li class="title" data-index="3">Bedtime</li>
+            <li class="title" data-index="4">Motivational</li>
+            <li class="title" data-index="5">Spiritual</li>
+        </ul>
+        <ol class="content active" data-index="1">
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/WarBuf.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/JohLen.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/JacRob.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <ol class="content" data-index="2">
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/1.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/2.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/3.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <ol class="content" data-index="3">
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/6.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/5.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/4.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <ol class="content" data-index="4">
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/9.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/8.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/7.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        <ol class="content" data-index="5">
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/12.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/11.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="intron">
+                    <div class="intron_1">
+                        <img class="img" src="../Images/10.jpg">
+                    </div>
+                    <div class="intron_2">
+                        <p>Warren Buffett</p>
+                        <br>
+                        <p>Businessman and inverstor</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </div>
+    <button id="btn_D">Download ></button>
+    <script src="../JAVAScript/Introduction.js"></script>
+</div>
+
+<footer>
+    <div class="inner-width">
+        <div class="copyright">
+            &copy; 2020 | Created & Designed By <a href="#">Zhaohui Liang</a>
+        </div>
+        <div class="sm">
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-qq"></a>
+            <a href="#" class="fab fa-weibo"></a>
+            <a href="#" class="fab fa-weixin"></a>
+            <a href="#" class="fab fa-youtube"></a>
+        </div>
+    </div>
+    <a class="valid" href="https://validator.w3.org/nu/?doc=https://sfs-webdev.massey.ac.nz/site2292/158258/Assignment/Wind_Chimes_Story_ZL/HTML/Wind_Chimes_MainStation.html"
+       aria-label="more">Valid HTML</a>
+    <br>
+    <a class="valid" href="https://jigsaw.w3.org/css-validator/validator?uri=https://sfs-webdev.massey.ac.nz/site2292/158258/Assignment/Wind_Chimes_Story_ZL/CSS/MainStation.css"
+       aria-label="more"> Valid CSS</a>
+</footer>
+
+<!-- Go Top BTN -->
+<button class="goTop fas fa-arrow-up"></button>
+
+<script src="../JAVAScript/goTop.js"></script>
+
+
+
+</body>
+</html>
